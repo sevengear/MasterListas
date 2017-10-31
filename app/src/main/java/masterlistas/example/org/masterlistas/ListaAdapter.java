@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by seven on 30/10/2017.
+ * Created by Miguel Á. Núñez on 30/10/2017.
  */
 
 public class ListaAdapter extends RecyclerView.Adapter<ListaAdapter.ListaViewHolder> {

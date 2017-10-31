@@ -1,7 +1,7 @@
 package masterlistas.example.org.masterlistas;
 
 /**
- * Created by seven on 30/10/2017.
+ * Created by Miguel Á. Núñez on 30/10/2017.
  */
 
 public class Lista {
