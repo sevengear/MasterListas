@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MasterListes</string>
+    <string name="drawer_open">navigation drawer ouvert</string>
+    <string name="drawer_close">navigation drawer fermé</string>
+    <!--activity inicio sesion-->
+    <string name="iniciar_sesion">Commencer la session</string>
+    <string name="username">Nom d\'utilisateur ou mail</string>
+    <string name="password">Passe</string>
+    <string name="recordarme">Rappelle moi</string>
+    <string name="show_password">Afficher mot de passe</string>
+    <string name="borrar">Supprimer</string>
+    <string name="forgot_password">J\'AI OUBLIÉ MON MOT DE PASSE</string>
+    <string name="registro">JE VEUX M\'INSCRIRE DANS L\'APPLICATION</string>
+    <string name="inicio_facebook">Connectez-vous avec Facebook</string>
+    <string name="inicio_google">Connectez-vous avec Google</string>
+    <!--content_listas-->
+    <string name="listas">Listes</string>
+    <!--nav_header_main-->
+    <string name="masterlistas">MasterListes</string>
+    <string name="curso">http://www.androidcurso.com</string>
+    <!--activity_main_drawer-->
+    <string name="share">Partager</string>
+    <string name="preferences">Préférences</string>
+    <string name="acciones_adicionales">Actions supplémentaires</string>
+    <string name="opcion_3">Choix 3</string>
+    <string name="opcion_2">Choix 2</string>
+    <string name="opcion_1">Choix 1</string>
+    <!--InicioSesionActivity-->
+    <string name="datos_usuario">Se souvenir des données de l\'utilisateur:</string>
+    <!--ListaAdapter-->
+    <string name="elements">Éléments</string>
+    <!--ListasActivity-->
+    <string name="trabajo">Travail</string>
+    <string name="personal">Personnel</string>
+
+</resources>

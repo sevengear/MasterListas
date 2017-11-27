@@ -108,8 +108,8 @@ public class ListasActivity extends AppCompatActivity {
 
         //Inicializar los elementos
         List items = new ArrayList();
-        items.add(new Lista(R.drawable.trabajo, "Trabajo", 2));
-        items.add(new Lista(R.drawable.casa, "Personal", 3));
+        items.add(new Lista(R.drawable.trabajo, getString(R.string.trabajo), 2));
+        items.add(new Lista(R.drawable.casa, getString(R.string.personal), 3));
         // Obtener el Recycler
         recycler = (RecyclerView) findViewById(R.id.reciclador);
         recycler.setHasFixedSize(true);

@@ -1,7 +1,38 @@
 <resources>
-    <string name="app_name">MasterListas</string>
-    <string name="drawer_open">navigation drawer abierto</string>
-    <string name="drawer_close">navigation drawer cerrado</string>
-    <!--Transición-->
+    <string name="app_name">MasterLists</string>
+    <string name="drawer_open">navigation drawer open</string>
+    <string name="drawer_close">navigation drawer close</string>
+    <!--Transicion-->
     <string name="transition_name_img">transition:IMG</string>
+    <string name="transition_name_nombre">transition:NOMBRE</string>
+    <!--activity inicio sesion-->
+    <string name="iniciar_sesion">Log in</string>
+    <string name="username">Username or email</string>
+    <string name="password">Password</string>
+    <string name="recordarme">Remember me</string>
+    <string name="show_password">Show Password</string>
+    <string name="borrar">Delete</string>
+    <string name="forgot_password">I FORGOT MY PASSWORD</string>
+    <string name="registro">I WANT TO REGISTER IN THE APPLICATION</string>
+    <string name="inicio_facebook">Log in with Facebook</string>
+    <string name="inicio_google">Log in with Google</string>
+    <!--content_listas-->
+    <string name="listas">Lists</string>
+    <!--nav_header_main-->
+    <string name="masterlistas">MasterLists</string>
+    <string name="curso">http://www.androidcurso.com</string>
+    <!--activity_main_drawer-->
+    <string name="share">Share</string>
+        <string name="preferences">preferences</string>
+    <string name="acciones_adicionales">Additional actions</string>
+    <string name="opcion_3">Option 3</string>
+    <string name="opcion_2">Option 2</string>
+    <string name="opcion_1">Option 1</string>
+    <!--InicioSesionActivity-->
+    <string name="datos_usuario">Remember user data:</string>
+    <!--ListaAdapter-->
+    <string name="elements">Elements:</string>
+    <!--ListasActivity-->
+    <string name="trabajo">Work</string>
+    <string name="personal">Personal</string>
 </resources>

@@ -19,14 +19,14 @@ public class InicioSesionActivity extends AppCompatActivity {
     }
 
     public void loguearCheckbox(View v) {
-        CheckBox recordarme = (CheckBox) findViewById(R.id.recordarme);
-        String s = "Recordar datos de usuario: " + (recordarme.isChecked() ? "Sí" : "No");
+        CheckBox recordarme = findViewById(R.id.recordarme);
+        String s = getString(R.string.datos_usuario) + (recordarme.isChecked() ? getString(android.R.string.yes) : getString(android.R.string.no));
         Toast.makeText(this, s, Toast.LENGTH_LONG).show();
     }
 
     public void mostrarContraseña(View v) {
-        EditText contraseña = (EditText) findViewById(R.id.contraseña);
-        CheckBox mostrar = (CheckBox) findViewById(R.id.mostrar_contraseña);
+        EditText contraseña = findViewById(R.id.contraseña);
+        CheckBox mostrar =  findViewById(R.id.mostrar_contraseña);
         if (mostrar.isChecked()) {
             contraseña.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_NORMAL);
         } else {
@@ -40,8 +40,8 @@ public class InicioSesionActivity extends AppCompatActivity {
     }
 
     public void borrarCampos(View view) {
-        EditText usuario = (EditText) findViewById(R.id.usuario);
-        EditText contraseña = (EditText) findViewById(R.id.contraseña);
+        EditText usuario = findViewById(R.id.usuario);
+        EditText contraseña = findViewById(R.id.contraseña);
         usuario.setText("");
         contraseña.setText("");
         usuario.requestFocus();

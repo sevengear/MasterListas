@@ -24,9 +24,9 @@ public class ListaAdapter extends RecyclerView.Adapter<ListaAdapter.ListaViewHol
 
         public ListaViewHolder(View v) {
             super(v);
-            imagen = (ImageView) v.findViewById(R.id.imagen);
-            nombre = (TextView) v.findViewById(R.id.nombre);
-            elementos = (TextView) v.findViewById(R.id.elementos);
+            imagen = v.findViewById(R.id.imagen);
+            nombre = v.findViewById(R.id.nombre);
+            elementos = v.findViewById(R.id.elementos);
         }
     }
 
@@ -49,6 +49,6 @@ public class ListaAdapter extends RecyclerView.Adapter<ListaAdapter.ListaViewHol
     public void onBindViewHolder(ListaViewHolder viewHolder, int i) {
         viewHolder.imagen.setImageResource(items.get(i).getImagen());
         viewHolder.nombre.setText(items.get(i).getNombre());
-        viewHolder.elementos.setText("Elementos:" + String.valueOf(items.get(i).getElementos()));
+        viewHolder.elementos.setText(R.string.elements + String.valueOf(items.get(i).getElementos()));
     }
 }
