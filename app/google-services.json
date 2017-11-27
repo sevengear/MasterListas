@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "738013011978",
-    "firebase_url": "https://masterlistas-b6baf.firebaseio.com",
-    "project_id": "masterlistas-b6baf",
-    "storage_bucket": "masterlistas-b6baf.appspot.com"
+    "project_number": "162932739711",
+    "firebase_url": "https://masterlistas-cbfde.firebaseio.com",
+    "project_id": "masterlistas-cbfde",
+    "storage_bucket": "masterlistas-cbfde.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:738013011978:android:c98d19c17ef20b3c",
+        "mobilesdk_app_id": "1:162932739711:android:558734abfb85e18c",
         "android_client_info": {
-          "package_name": "masterlistas.example.org.masterlistas"
+          "package_name": "masterlistas.manunez.org.masterlistas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "738013011978-n50e84kqs0c8sk1kvi6b9i1fq46nrgf9.apps.googleusercontent.com",
+          "client_id": "162932739711-7cnfv2pare54b3vi65m1usomiq9ultf1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "masterlistas.example.org.masterlistas",
+            "package_name": "masterlistas.manunez.org.masterlistas",
             "certificate_hash": "85c6584168aa3e051cd8ea25c0e786d4eafc0964"
           }
         },
         {
-          "client_id": "738013011978-k9rivg35jih3fhrkgeepc71eprnfm91p.apps.googleusercontent.com",
+          "client_id": "162932739711-s1taa44t1kdptlodbsa340l5voafbbc6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD2FYGjC6oFC56FlUT4RLWKImo_YC5cf3U"
+          "current_key": "AIzaSyCt4pJYibZqyKiJmDIpXbXx7RISMdLEEro"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "738013011978-k9rivg35jih3fhrkgeepc71eprnfm91p.apps.googleusercontent.com",
+              "client_id": "162932739711-s1taa44t1kdptlodbsa340l5voafbbc6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

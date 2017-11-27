@@ -33,5 +33,8 @@
     <!--ListasActivity-->
     <string name="trabajo">Trabajo</string>
     <string name="personal">Personal</string>
+    <!--Transicion-->
+    <string name="transition_name_img">transition:IMG</string>
+    <string name="transition_name_nombre">transition:NOMBRE</string>
 
 </resources>

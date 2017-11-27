@@ -1,4 +1,4 @@
-package masterlistas.example.org.masterlistas;
+package masterlistas.manunez.org.masterlistas;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -125,8 +125,8 @@ public class ListasActivity extends AppCompatActivity {
             public void onItemClick(View v, int position) {
                 Intent intent = new Intent(ListasActivity.this, DetalleListaActivity.class);
                 intent.putExtra("numeroLista", position);
-                ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(ListasActivity.this, new Pair<View, String>(v.findViewById(R.id.imagen), getString(R.string.transition_name_img)));
-                ActivityCompat.startActivity(ListasActivity.this, intent, options.toBundle());
+                ActivityOptionsCompat options = ActivityOptionsCompat. makeSceneTransitionAnimation(ListasActivity.this, new Pair<View, String>(v.findViewById(R.id.imagen), getString(R.string.transition_name_img)));
+                ActivityCompat.startActivity(ListasActivity.this, intent, options .toBundle());
             }
         }));
 

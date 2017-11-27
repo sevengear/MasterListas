@@ -1,4 +1,4 @@
-package masterlistas.example.org.masterlistas;
+package masterlistas.manunez.org.masterlistas;
 
 /**
  * Created by Miguel Á. Núñez on 30/10/2017.

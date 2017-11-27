@@ -1,4 +1,4 @@
-package masterlistas.example.org.masterlistas;
+package masterlistas.manunez.org.masterlistas;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
