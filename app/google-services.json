@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "738013011978",
+    "firebase_url": "https://masterlistas-b6baf.firebaseio.com",
+    "project_id": "masterlistas-b6baf",
+    "storage_bucket": "masterlistas-b6baf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738013011978:android:c98d19c17ef20b3c",
+        "android_client_info": {
+          "package_name": "masterlistas.example.org.masterlistas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738013011978-n50e84kqs0c8sk1kvi6b9i1fq46nrgf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "masterlistas.example.org.masterlistas",
+            "certificate_hash": "85c6584168aa3e051cd8ea25c0e786d4eafc0964"
+          }
+        },
+        {
+          "client_id": "738013011978-k9rivg35jih3fhrkgeepc71eprnfm91p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2FYGjC6oFC56FlUT4RLWKImo_YC5cf3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738013011978-k9rivg35jih3fhrkgeepc71eprnfm91p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
